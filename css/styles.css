@@ -41,7 +41,6 @@ h1 {
 } */
 
 .bgImage {
-  background-color: lime;
   background-image: url("../Images/claujnunez_hero_backgroundimg.png");
   height: 1000px;
   width: 100%;
@@ -82,7 +81,6 @@ h1 {
   max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
-  padding: 0 40px;
 }
 
 .flex {
@@ -101,7 +99,8 @@ h1 {
 .logo-img {
   position: relative;
   width: auto;
-  max-width: 90px;
+  height: auto;
+  max-width: 265px;
   margin: 10px 15px 15px 10px;
   padding: 10px 15px;
   box-shadow: #525252;
@@ -309,7 +308,7 @@ a:hover {
   max-height: 350px;
 }
 .cad-img {
-    width: 100%;
+  width: 100%;
 }
 
 .soteria {
@@ -494,7 +493,10 @@ footer {
 
   .logo-mobile {
     float: left;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
+    background-color: lime;
     padding: 5% 25% 0 25%;
   }
 
