@@ -48,36 +48,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .navHeader {
-    float: right;
-    color: white;
-} */
 
-/* Navigation 
-.navbar {
-  float: right;
-  overflow: hidden;
-  height: 90px;
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar a {
-  color: #fff;
-  padding: 10px;
-  margin: 0 5px;
-}
-
-.navbar a:hover {
-  border-bottom: 2px #fff solid;
-}
-
-.navbar .flex {
-  justify-content: space-between;
-}
-*/
 
 .container {
   max-width: 1100px;
@@ -164,7 +135,7 @@ a:hover {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 30%;
+  bottom: 0%;
 }
 
 .btn-primary {
@@ -214,8 +185,18 @@ a:hover {
 }
 
 #obtiCard {
+ 
   max-width: 50%;
   background-color: red;
+}
+
+#optiMealImg {
+  
+  width: 110%;
+}
+
+#cambioImg {
+  width: 80%;
 }
 
 .projectsSec {
