@@ -446,7 +446,7 @@ footer {
     /* margin: 0 auto; */
     /* max-width: 100% !important; */
 
-    background-color: lime;
+    /* background-color: lime; */
   }
 
   .col-md-3,
@@ -479,8 +479,13 @@ footer {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    background-color: lime;
+    /* background-color: lime; */
     padding: 5% 25% 0 25%;
+  }
+
+  .iconsSocial {
+    min-width: 40px;
+    /* background-color: red; */
   }
 
   .content {
@@ -493,10 +498,11 @@ footer {
   }
 
   .smallHead {
-    display: inline-block;
+    /* background-color: red; */
+    display: block;
     align-content: center;
     text-align: center;
-    padding: 30 0 0 43%;
+    /* padding: 30 0 0 43%; */
   }
 
   .nameTitle {
@@ -546,7 +552,7 @@ footer {
 
   .textCard2 {
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
   }
 
   #soteriaText {
@@ -559,7 +565,7 @@ footer {
     position: relative;
     left: -40%;
     width: 50%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
   }
 
   #picCard2 {
@@ -567,7 +573,7 @@ footer {
     justify-content: center;
     padding: 0 30px 0 30px;
     top: -121%;
-    background-color: purple;
+    /* background-color: purple; */
   }
 
   #cambioCard {
@@ -587,7 +593,7 @@ footer {
   }
 
   .card-imgOdd {
-    background-color: magenta;
+    /* background-color: magenta; */
     width: 0 auto;
     margin: 0;
     padding: 0%;
