@@ -88,19 +88,27 @@ a:hover {
 
 .smallHead {
   color: #fff;
-  font-size: x-large;
+  font-size: 40px;
   display: flex;
   justify-content: center;
 }
 
 .nameTitle {
   color: #fff;
+  position: absolute;
+  bottom: 15%;
   font-size: 50px;
-  display: flex;
+  margin: 0 auto;
+  left: 11%;
+  right: 11%;
   justify-content: center;
 }
 
 .description {
+  position: absolute;
+  bottom: 0%;
+  padding: 0 10px;
+  /* background-color: red; */
   text-align: center;
   color: #fff;
 }
@@ -123,14 +131,26 @@ a:hover {
 }
 
 .content {
+  /* background-color: lime; */
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 40%;
+  top: 15%;
   width: 500px;
+  height: 500px;
   margin: 0 auto;
 }
 
+.content, .facepic {
+  margin: 0% auto;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
+
+.facepic {
+  width: 40%;
+}
 .buttonsWrapper {
   position: absolute;
   left: 15%;
@@ -164,7 +184,7 @@ a:hover {
 
 .socialDiv {
   position: absolute;
-  top: 150%;
+  top: 120%;
   left: 0%;
   right: 0%;
   color: white;
