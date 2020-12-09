@@ -42,7 +42,7 @@ h1 {
 
 .bgImage {
   background-image: url("../Images/claujnunez_hero_backgroundimg.png");
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ a:hover {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 0%;
+  bottom: 20%;
 }
 
 .btn-primary {
@@ -191,9 +191,11 @@ a:hover {
   width: 100%;
 }
 
-.iconsSocial {
-  /* margin-right: 20px; */
-  width: 2.5%;
+.iconsSocial, a {
+  /* background-color: yellow; */
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 4%;
 }
 
 /* vvvvvv  Prejects Sections vvvvvv */
