@@ -36,9 +36,8 @@ a {
 h1 {
   text-align: center;
 }
-/* img {
-    width: 100%;
-} */
+
+.collapse > .navbar-collapse > .navbar-nav > ul > .nav a:hover { color: red !important; }
 
 .bgImage {
   background-image: url("../Images/claujnunez_hero_backgroundimg.png");
@@ -191,7 +190,7 @@ a:hover {
   width: 100%;
 }
 
-.iconsSocial, a {
+.iconsSocial {
   /* background-color: yellow; */
   margin-left: 10px;
   margin-right: 10px;
