@@ -514,8 +514,12 @@ footer {
   }
 
   .bgImage {
-
     height: 600px;
+  }
+
+  .socialDiv {
+    position: absolute;
+    top: 105%;
   }
 
   .iconsSocial {
@@ -541,12 +545,16 @@ footer {
   }
 
   .nameTitle {
+    position: absolute;
+    bottom: 32%;
     font-size: 35px;
+    text-align: center;
   }
 
   .description {
     width: 100%;
     position: absolute;
+    bottom: 18%;
     margin: 0%;
     align-content: center;
     text-align: center;
@@ -556,7 +564,7 @@ footer {
   .buttonsWrapper {
     position: absolute;
     padding: 0 0 0 40;
-    bottom: 30%;
+    bottom: 13%;
   }
 
   .proSkills {
