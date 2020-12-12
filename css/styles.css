@@ -462,17 +462,9 @@ footer {
     display: block;
   }
 
-  /* #optiCard {
-        position: absolute;
-        top: 40%;
-        background-color: blue;
-    } */
 
-  .container-fluid {
-    /* margin: 0 auto; */
-    /* max-width: 100% !important; */
-
-    /* background-color: lime; */
+  .card {
+    margin-right: 5%;
   }
 
   .col-md-3,
@@ -482,8 +474,6 @@ footer {
     margin: 0;
   }
   /* vvvvvv Navigation Bar Code vvvvvv */
-  
-
 
   .navbar {
 
@@ -577,6 +567,12 @@ footer {
     margin: auto;
   }
 
+
+  .card {
+    max-width: 80% !important;
+    margin-right: 10%;
+  }
+
   .card-body {
     display: block;
     float: left;
@@ -619,10 +615,19 @@ footer {
     /* background-color: purple; */
   }
 
+  #optiMealImg {
+    max-width: 100% !important;
+  }
+
   #cambioCard {
     position: relative;
     top: 80%;
     /* background-color: lime; */
+  }
+  #cambioImg {
+    max-width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .card-body.Odd {
