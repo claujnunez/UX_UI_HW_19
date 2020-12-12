@@ -41,7 +41,7 @@ h1 {
 
 .bgImage {
   background-image: url("../Images/claujnunez_hero_backgroundimg.png");
-  height: 800px;
+  height: 650px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,12 +90,21 @@ a:hover {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  position: relative;
+  top: -8%;
+  
+}
+
+.facepic {
+  position: absolute;
+  top: 6%;
+  width: 40%;
 }
 
 .nameTitle {
   color: #fff;
   position: absolute;
-  bottom: 15%;
+  bottom: 27%;
   font-size: 50px;
   margin: 0 auto;
   left: 11%;
@@ -105,11 +114,34 @@ a:hover {
 
 .description {
   position: absolute;
-  bottom: 0%;
+  bottom: 12%;
   padding: 0 10px;
   /* background-color: red; */
   text-align: center;
   color: #fff;
+}
+
+.buttonsWrapper {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 16%;
+}
+
+.socialDiv {
+  position: absolute;
+  top: 120%;
+  left: 0%;
+  right: 0%;
+  color: white;
+  width: 100%;
+}
+
+.iconsSocial {
+  /* background-color: yellow; */
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 4%;
 }
 
 .name {
@@ -147,16 +179,6 @@ a:hover {
   right: 20%;
 }
 
-.facepic {
-  width: 40%;
-}
-.buttonsWrapper {
-  position: absolute;
-  left: 15%;
-  right: 15%;
-  bottom: 20%;
-}
-
 .btn-primary {
   width: 167px;
   height: 48px;
@@ -181,22 +203,6 @@ a:hover {
   margin-right: 40px;
 }
 
-.socialDiv {
-  position: absolute;
-  top: 120%;
-  left: 0%;
-  right: 0%;
-  color: white;
-  width: 100%;
-}
-
-.iconsSocial {
-  /* background-color: yellow; */
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 4%;
-}
-
 /* vvvvvv  Prejects Sections vvvvvv */
 
 .row {
@@ -206,7 +212,6 @@ a:hover {
 }
 
 #obtiCard {
- 
   max-width: 50%;
   background-color: red;
 }
@@ -477,9 +482,13 @@ footer {
     margin: 0;
   }
   /* vvvvvv Navigation Bar Code vvvvvv */
+  
+
+
   .navbar {
+
     height: 110px;
-    padding: 0 15% 0 15%;
+    padding: 0 10% 0 10%;
   }
 
   .navbar .flex {
@@ -502,6 +511,11 @@ footer {
     overflow: hidden;
     /* background-color: lime; */
     padding: 5% 25% 0 25%;
+  }
+
+  .bgImage {
+
+    height: 600px;
   }
 
   .iconsSocial {
