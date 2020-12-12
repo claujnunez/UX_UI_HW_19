@@ -125,12 +125,12 @@ a:hover {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 16%;
+  bottom: -5%;
 }
 
 .socialDiv {
   position: absolute;
-  top: 120%;
+  top: 100%;
   left: 0%;
   right: 0%;
   color: white;
@@ -141,7 +141,7 @@ a:hover {
   /* background-color: yellow; */
   margin-left: 10px;
   margin-right: 10px;
-  width: 4%;
+  width: 10%;
 }
 
 .name {
@@ -429,7 +429,7 @@ footer {
 /* ######################################### */
 
 /* Tablets and under resolutions */
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   /* card deck  */
   .line {
     margin: 80px 100px 0px 0px;
@@ -478,7 +478,7 @@ footer {
   .navbar {
 
     height: 110px;
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
   }
 
   .navbar .flex {
@@ -554,7 +554,7 @@ footer {
   .buttonsWrapper {
     position: absolute;
     padding: 0 0 0 40;
-    bottom: 13%;
+    bottom: 0%;
   }
 
   .proSkills {
